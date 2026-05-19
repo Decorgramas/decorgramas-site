@@ -1,0 +1,40 @@
+/* =========================================================
+   DECOR GRAMAS — RESPONSIVE
+   Breakpoints: 1100px · 768px · prefers-reduced-motion
+   ========================================================= */
+
+@media (max-width: 1100px) {
+  .page-hero-grid,
+  .feature-block,
+  .section-header,
+  .faq-wrap { grid-template-columns: 1fr; gap: 40px; }
+  .feature-block.reverse { direction: ltr; }
+  .benefits-grid,
+  .process-grid { grid-template-columns: repeat(2, 1fr); }
+  .projects-mini,
+  .footer-top { grid-template-columns: 1fr 1fr; }
+}
+
+@media (max-width: 768px) {
+  .nav-desktop, .header-cta .phone-pill { display: none; }
+  .menu-trigger { display: flex; }
+  .header-cta .btn { padding: 10px 16px; font-size: 13px; }
+  .header-cta .btn .arrow-txt { display: none; }
+  .section { padding: 80px 0; }
+  .page-hero { padding: 130px 0 70px; }
+  .benefits-grid,
+  .process-grid,
+  .projects-mini,
+  .footer-top,
+  .footer-bottom { grid-template-columns: 1fr; }
+  .footer-bottom { text-align: center; justify-content: center; }
+  .footer-bottom-links { justify-content: center; flex-wrap: wrap; }
+  .whatsapp-float { width: 56px; height: 56px; bottom: 20px; right: 20px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}

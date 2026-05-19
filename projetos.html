@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<title>Portfólio de Projetos em Grama Sintética | Decor Gramas</title>
+<meta name="description" content="Veja os projetos realizados pela Decor Gramas no Vale do Itajaí — jardins, varandas, piscinas, playgrounds e áreas pet. +500 instalações com grama sintética premium." />
+<meta name="robots" content="index, follow" /><meta name="theme-color" content="#0F2A20" />
+<link rel="canonical" href="https://decorgramas.com.br/projetos" />
+<link rel="icon" type="image/png" sizes="32x32" href="assets/icons/favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="assets/icons/favicon-16.png">
+<link rel="apple-touch-icon" sizes="192x192" href="assets/icons/favicon-192.png">
+<link rel="shortcut icon" href="assets/icons/favicon.ico">
+<meta property="og:title" content="Portfólio de Projetos | Decor Gramas" />
+<meta property="og:description" content="+500 projetos de grama sintética realizados no Vale do Itajaí. Veja o antes e depois." />
+<meta property="og:type" content="website" /><meta property="og:locale" content="pt_BR" />
+<meta property="og:site_name" content="Decor Gramas" />
+<meta property="og:url" content="https://decorgramas.com.br/projetos" />
+<meta property="og:image" content="https://decorgramas.com.br/assets/icons/favicon-512.png" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Portfólio de Projetos | Decor Gramas" />
+<meta name="twitter:image" content="https://decorgramas.com.br/assets/icons/favicon-512.png" />
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400&family=Inter+Tight:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/main.css">
+<link rel="stylesheet" href="assets/css/animations.css">
+<link rel="stylesheet" href="assets/css/responsive.css">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@graph":[{"@type":"LocalBusiness","@id":"https://decorgramas.com.br/#business","name":"Decor Gramas","url":"https://decorgramas.com.br","telephone":"+55-47-99234-5341"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://decorgramas.com.br/"},{"@type":"ListItem","position":2,"name":"Projetos","item":"https://decorgramas.com.br/projetos"}]}]}
+</script>
+<style>
+.page-hero.projetos::before {
+  background-image:
+    linear-gradient(115deg, rgba(15,42,32,0.88), rgba(15,42,32,0.5) 65%, rgba(15,42,32,0.3)),
+    url("https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1800&q=85&auto=format&fit=crop");
+}
+.projects-filter {
+  display: flex; flex-wrap: wrap; gap: 10px;
+  margin-bottom: 56px;
+}
+.filter-btn {
+  padding: 10px 22px; border-radius: 100px;
+  border: 1px solid var(--line); background: var(--paper);
+  font-size: 14px; font-weight: 500; color: var(--ink-2);
+  cursor: pointer; transition: all 0.3s var(--ease);
+}
+.filter-btn:hover, .filter-btn.active {
+  background: var(--green-700); color: var(--bone); border-color: var(--green-700);
+}
+.projects-masonry {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+.project-card {
+  position: relative; border-radius: var(--radius-lg);
+  overflow: hidden; background: var(--green-50);
+  cursor: pointer;
+}
+.project-card.tall { grid-row: span 2; }
+.project-card .proj-img {
+  width: 100%; height: 100%; min-height: 280px;
+  background-size: cover; background-position: center;
+  transition: transform 1.2s var(--ease);
+}
+.project-card.tall .proj-img { min-height: 580px; }
+.project-card:hover .proj-img { transform: scale(1.06); }
+.project-card .proj-info {
+  position: absolute; bottom: 0; left: 0; right: 0;
+  padding: 28px 24px;
+  background: linear-gradient(180deg, transparent, rgba(15,42,32,0.88));
+  color: var(--bone);
+  transform: translateY(100%); opacity: 0;
+  transition: all 0.5s var(--ease);
+}
+.project-card:hover .proj-info { transform: translateY(0); opacity: 1; }
+.project-card .proj-tag {
+  position: absolute; top: 18px; left: 18px;
+  padding: 6px 14px; border-radius: 100px;
+  background: rgba(251,250,246,0.92); backdrop-filter: blur(8px);
+  font-size: 11px; font-weight: 600; letter-spacing: 0.14em;
+  text-transform: uppercase; color: var(--ink);
+}
+.proj-info .pin { font-size: 11px; letter-spacing: 0.14em; text-transform: uppercase; opacity: 0.7; margin-bottom: 6px; }
+.proj-info h3 { font-family: var(--font-display); font-size: 22px; font-weight: 500; letter-spacing: -0.01em; }
+.proj-info p { font-size: 13px; opacity: 0.8; margin-top: 4px; line-height: 1.5; }
+.projects-cta-strip {
+  background: var(--bone); padding: 80px 0;
+  text-align: center;
+}
+.projects-cta-strip h2 { font-family: var(--font-display); font-size: clamp(2rem, 4vw, 3rem); font-weight: 400; letter-spacing: -0.025em; margin-bottom: 16px; }
+.projects-cta-strip h2 em { font-style: italic; color: var(--green-700); }
+.projects-cta-strip p { color: var(--ink-3); font-size: 17px; margin-bottom: 32px; }
+@media(max-width: 900px) { .projects-masonry { grid-template-columns: repeat(2, 1fr); } .project-card.tall { grid-row: span 1; } .project-card.tall .proj-img { min-height: 280px; } }
+@media(max-width: 560px) { .projects-masonry { grid-template-columns: 1fr; } }
+</style>
+</head>
+<body>
+<header class="header solid" id="header">
+  <div class="container">
+    <div class="header-row">
+      <a href="/" class="logo" aria-label="Decor Gramas">
+        <img class="logo-dark" src="assets/img/logo/wordmark-compact.png" alt="Decor Gramas" width="160" height="40">
+        <img class="logo-light" src="assets/img/logo/wordmark-compact-light.png" alt="Decor Gramas" width="160" height="40">
+      </a>
+      <nav class="nav-desktop">
+        <div class="nav-item">
+          <a href="#" class="nav-link has-dropdown">Serviços</a>
+          <div class="dropdown">
+            <a href="/servicos/grama-sintetica-decorativa"><span class="icon">🌿</span> Grama Decorativa</a>
+            <a href="/servicos/playground-em-grama-sintetica"><span class="icon">🛝</span> Playground</a>
+            <a href="/servicos/grama-sintetica-jardim"><span class="icon">🌱</span> Jardim</a>
+            <a href="/servicos/grama-sintetica-para-pets"><span class="icon">🐾</span> Área Pet</a>
+            <a href="/servicos/grama-sintetica-para-varanda"><span class="icon">🏠</span> Varanda</a>
+            <a href="/servicos/grama-sintetica-para-piscina"><span class="icon">🏊</span> Piscina</a>
+          </div>
+        </div>
+        <a href="/#cidades" class="nav-link">Cidades</a>
+        <a href="/projetos" class="nav-link">Projetos</a>
+        <a href="/sobre" class="nav-link">Sobre</a>
+        <a href="/#contato" class="nav-link">Contato</a>
+      </nav>
+      <div class="header-cta">
+        <a href="tel:+5547992345341" class="phone-pill"><span class="dot"></span>(47) 99234-5341</a>
+        <a href="https://wa.me/5547992345341" class="btn btn-primary btn-wa">
+          <svg class="wa-icon" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+          <span class="arrow-txt">Orçamento</span>
+        </a>
+      </div>
+      <button class="menu-trigger" aria-label="Abrir menu" id="menuTrigger"><div class="bars"><span></span><span></span><span></span></div></button>
+    </div>
+  </div>
+</header>
+<div class="mobile-overlay" id="mobileOverlay"></div>
+<aside class="mobile-menu" id="mobileMenu">
+  <nav class="mobile-nav">
+    <a href="/servicos/grama-sintetica-jardim">Jardim <span>→</span></a>
+    <a href="/servicos/grama-sintetica-decorativa">Decorativa <span>→</span></a>
+    <a href="/servicos/grama-sintetica-para-pets">Área Pet <span>→</span></a>
+    <a href="/sobre">Sobre <span>→</span></a>
+    <a href="/">Home</a>
+  </nav>
+  <div class="mobile-footer">
+    <a href="https://wa.me/5547992345341" class="btn btn-primary btn-wa">
+      <svg class="wa-icon" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+      Falar no WhatsApp
+    </a>
+    <p>Seg–Sex 8h–18h · Sáb 8h–12h</p>
+  </div>
+</aside>
+
+<section class="page-hero projetos" style="min-height:60vh;">
+  <div class="container">
+    <div class="breadcrumb"><a href="/">Início</a><span>/</span><span>Projetos</span></div>
+    <div>
+      <span class="eyebrow">Portfólio</span>
+      <h1 style="font-family:var(--font-display);font-size:clamp(2.5rem,5.5vw,4.8rem);line-height:0.98;font-weight:400;letter-spacing:-0.03em;margin:18px 0 24px;font-variation-settings:'opsz' 144;">Mais de <em>500 projetos</em><br>realizados no Vale do Itajaí.</h1>
+      <p class="lead">De quintais residenciais a coberturas de luxo — veja o que fazemos com grama sintética premium em toda a região.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section section-paper">
+  <div class="container">
+    <div class="projects-filter reveal">
+      <button class="filter-btn active">Todos</button>
+      <button class="filter-btn">Jardim</button>
+      <button class="filter-btn">Varanda</button>
+      <button class="filter-btn">Piscina</button>
+      <button class="filter-btn">Playground</button>
+      <button class="filter-btn">Área Pet</button>
+      <button class="filter-btn">Decorativo</button>
+    </div>
+
+    <div class="projects-masonry reveal-stagger">
+      <div class="project-card tall">
+        <div class="proj-img" style="background-image:url('https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=85&auto=format&fit=crop')"></div>
+        <span class="proj-tag">Jardim</span>
+        <div class="proj-info">
+          <p class="pin">📍 Brusque, SC</p>
+          <h3>Jardim residencial com deck integrado</h3>
+          <p>300 m² de grama sintética + deck de madeira plástica. Instalação em 2 dias.</p>
+        </div>
+      </div>
+      <div class="project-card">
+        <div class="proj-img" style="background-image:url('https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=85&auto=format&fit=crop')"></div>
+        <span class="proj-tag">Varanda</span>
+        <div class="proj-info">
+          <p class="pin">📍 Balneário Camboriú, SC</p>
+          <h3>Cobertura de apartamento</h3>
+          <p>80 m² em varanda de cobertura com grama premium resistente ao litoral.</p>
+        </div>
+      </div>
+      <div class="project-card">
+        <div class="proj-img" style="background-image:url('https://images.unsplash.com/photo-1516026672322-bc52d61a55d5?w=800&q=85&auto=format&fit=crop')"></div>
+        <span class="proj-tag">Piscina</span>
+        <div class="proj-info">
+          <p class="pin">📍 Itajaí, SC</p>
+          <h3>Área de piscina em condomínio</h3>
+          <p>Entorno de piscina com grama antiderrapante em condomínio residencial.</p>
+        </div>
+      </div>
+      <div class="project-card">
+        <div class="proj-img" style="background-image:url('https://images.unsplash.com/photo-1577412647305-991150c7d163?w=800&q=85&auto=format&fit=crop')"></div>
+        <span class="proj-tag">Playground</span>
+        <div class="proj-info">
+          <p class="pin">📍 Blumenau, SC</p>
+          <h3>Playground em condomínio horizontal</h3>
+          <p>Área de brincadeiras segura e macia. Grama com amortecimento especial.</p>
+        </div>
+      </div>
+      <div class="project-card tall">
+        <div class="proj-img" style="background-image:url('https://images.unsplash.com/photo-1558904541-efa843a96f01?w=800&q=85&auto=format&fit=crop')"></div>
+        <span class="proj-tag">Jardim</span>
+        <div class="proj-info">
+          <p class="pin">📍 Gaspar, SC</p>
+          <h3>Quintal residencial em declive</h3>
+          <p>450 m² em terreno com aclive. Preparação de substrato + grama premium.</p>
+        </div>
+      </div>
+      <div class="project-card">
+        <div class="proj-img" style="background-image:url('https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=800&q=85&auto=format&fit=crop')"></div>
+        <span class="proj-tag">Decorativo</span>
+        <div class="proj-info">
+          <p class="pin">📍 Brusque, SC</p>
+          <h3>Painel decorativo em escritório</h3>
+          <p>Painel de grama artificial como elemento decorativo de parede.</p>
+        </div>
+      </div>
+      <div class="project-card">
+        <div class="proj-img" style="background-image:url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&q=85&auto=format&fit=crop')"></div>
+        <span class="proj-tag">Área Pet</span>
+        <div class="proj-info">
+          <p class="pin">📍 Itapema, SC</p>
+          <h3>Área pet em casa de praia</h3>
+          <p>Grama antialérgica e fácil de limpar em área externa de casa litorânea.</p>
+        </div>
+      </div>
+      <div class="project-card">
+        <div class="proj-img" style="background-image:url('https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=800&q=85&auto=format&fit=crop')"></div>
+        <span class="proj-tag">Jardim</span>
+        <div class="proj-info">
+          <p class="pin">📍 Pomerode, SC</p>
+          <h3>Jardim histórico em Pomerode</h3>
+          <p>Grama sintética harmoniosa com a arquitetura de influência alemã da propriedade.</p>
+        </div>
+      </div>
+    </div>
+
+    <div style="text-align:center; margin-top:60px;" class="reveal">
+      <p style="color:var(--ink-3); margin-bottom:20px; font-size:15px;">Em breve, galeria completa com fotos reais dos projetos.</p>
+      <a href="https://wa.me/5547992345341?text=Ola!%20Quero%20ver%20mais%20projetos%20da%20Decor%20Gramas." class="btn btn-primary">
+        Ver mais projetos no WhatsApp <span class="arrow">→</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<div class="projects-cta-strip reveal">
+  <div class="container">
+    <span class="eyebrow" style="justify-content:center;">Seu projeto pode ser o próximo</span>
+    <h2>Transforme seu espaço.<br><em>Solicite um orçamento.</em></h2>
+    <p>Visita técnica gratuita em toda a região do Vale do Itajaí.</p>
+    <a href="https://wa.me/5547992345341?text=Ola!%20Quero%20um%20orcamento%20para%20meu%20projeto." class="btn btn-primary btn-wa" style="padding:20px 36px;font-size:17px;">
+      <svg class="wa-icon" style="width:20px;height:20px;" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+      Falar no WhatsApp
+    </a>
+  </div>
+</div>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <a href="/" class="logo" aria-label="Decor Gramas"><img src="assets/img/logo/wordmark-light.png" alt="Decor Gramas" width="180" height="64"></a>
+        <p>Especialistas em venda e instalação de grama sintética premium no Vale do Itajaí. Sede em Brusque — SC.</p>
+        <div class="footer-social">
+          <a href="https://instagram.com/decorgramas" aria-label="Instagram">IG</a>
+          <a href="#" aria-label="YouTube">YT</a>
+          <a href="https://wa.me/5547992345341" aria-label="WhatsApp">WA</a>
+        </div>
+      </div>
+      <div class="footer-col"><h5>Serviços</h5><ul>
+        <li><a href="/servicos/grama-sintetica-jardim">Jardim</a></li>
+        <li><a href="/servicos/grama-sintetica-decorativa">Grama Decorativa</a></li>
+        <li><a href="/servicos/grama-sintetica-para-pets">Área Pet</a></li>
+        <li><a href="/servicos/grama-sintetica-para-varanda">Varandas</a></li>
+        <li><a href="/servicos/grama-sintetica-para-piscina">Piscinas</a></li>
+        <li><a href="/servicos/playground-em-grama-sintetica">Playground</a></li>
+      </ul></div>
+      <div class="footer-col"><h5>Cidades</h5><ul>
+        <li><a href="/cidades/grama-sintetica-brusque">Brusque</a></li>
+        <li><a href="/cidades/grama-sintetica-itajai">Itajaí</a></li>
+        <li><a href="/cidades/grama-sintetica-blumenau">Blumenau</a></li>
+        <li><a href="/cidades/grama-sintetica-balneario-camboriu">Balneário Camboriú</a></li>
+        <li><a href="/cidades/grama-sintetica-gaspar">Gaspar</a></li>
+        <li><a href="/cidades/grama-sintetica-itapema">Itapema</a></li>
+      </ul></div>
+      <div class="footer-col"><h5>Contato</h5><ul>
+        <li><a href="tel:+5547992345341">📞 (47) 99234-5341</a></li>
+        <li><a href="https://wa.me/5547992345341">💬 WhatsApp</a></li>
+        <li>📍 R. João Lucio Torrezani, 80<br>Santa Rita — Brusque, SC</li>
+        <li>🕐 Seg–Sex: 8h–18h · Sáb: 8h–12h</li>
+      </ul></div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Decor Gramas · Todos os direitos reservados.</span>
+      <div class="footer-bottom-links"><a href="#">Política de Privacidade</a><a href="#">Termos de Uso</a><a href="/sitemap.xml">Sitemap</a></div>
+    </div>
+  </div>
+</footer>
+
+<a href="https://wa.me/5547992345341" class="whatsapp-float" aria-label="Falar no WhatsApp">
+  <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+</a>
+<script src="assets/js/main.js" defer></script>
+<script src="assets/js/animations.js" defer></script>
+<script>
+document.querySelectorAll('.filter-btn').forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+  });
+});
+</script>
+</body>
+</html>

@@ -1,0 +1,19 @@
+# robots.txt — Decor Gramas
+# https://decorgramas.com.br
+
+User-agent: *
+Allow: /
+
+# Bloquear assets (não indexar CSS, JS, fontes)
+Disallow: /assets/css/
+Disallow: /assets/js/
+Disallow: /assets/icons/
+Disallow: /assets/videos/
+Disallow: /*.zip$
+Disallow: /*.log$
+
+# Permitir imagens (Google Images)
+Allow: /assets/img/
+
+# Sitemap
+Sitemap: https://decorgramas.com.br/sitemap.xml
