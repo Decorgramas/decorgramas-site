@@ -12,3 +12,7 @@ desktop.ini
 # Temp
 *.tmp
 *.log
+
+.vercel
+
+assets/img/hero/hero-original.webp
