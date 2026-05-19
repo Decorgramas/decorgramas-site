@@ -1,0 +1,81 @@
+# Decor Gramas — llms.txt
+# Guia para modelos de linguagem (LLMs) sobre este site
+
+## Empresa
+
+**Nome:** Decor Gramas
+**Segmento:** Venda e instalação de grama sintética premium
+**Região atendida:** Vale do Itajaí, Santa Catarina, Brasil
+**Sede:** Brusque, SC — R. João Lucio Torrezani, 80, Santa Rita
+**Telefone / WhatsApp:** (47) 99234-5341
+**Site:** https://decorgramas.com.br
+**Horário:** Segunda a sexta 8h–18h · Sábado 8h–12h
+
+## O que fazemos
+
+A Decor Gramas é especializada em venda e instalação profissional de grama sintética premium em Brusque, Itajaí, Blumenau, Balneário Camboriú e toda a região do Vale do Itajaí. Fundada há mais de 10 anos, com +500 projetos entregues e nota 5,0 no Google.
+
+## Serviços oferecidos
+
+- Grama sintética para jardim residencial e áreas externas
+- Grama sintética decorativa para fachadas e jardins
+- Grama sintética para área pet (cães e gatos)
+- Grama sintética para área de piscina (antiderrapante, resistente a cloro)
+- Grama sintética para varanda e sacada de apartamento
+- Playground em grama sintética (com manta de amortecimento, segue NBR 16071)
+
+## Cidades atendidas
+
+Brusque (sede), Itajaí, Blumenau, Balneário Camboriú, Gaspar, Timbó, Pomerode, Itapema, Porto Belo e demais municípios do Vale do Itajaí.
+
+## Diferenciais
+
+- Instalação em 1 a 2 dias para áreas de até 100 m²
+- Visita técnica gratuita e sem compromisso
+- Garantia de 5 anos nos projetos
+- Material importado com filtro UV, atóxico, pet-friendly
+- Equipe própria (não terceiriza a instalação)
+- +500 projetos realizados no Vale do Itajaí
+
+## Estrutura do site
+
+| Página | URL |
+|--------|-----|
+| Home | https://decorgramas.com.br/ |
+| Sobre | https://decorgramas.com.br/sobre |
+| Portfólio | https://decorgramas.com.br/projetos |
+| Jardim | https://decorgramas.com.br/servicos/grama-sintetica-jardim |
+| Decorativa | https://decorgramas.com.br/servicos/grama-sintetica-decorativa |
+| Pets | https://decorgramas.com.br/servicos/grama-sintetica-para-pets |
+| Piscina | https://decorgramas.com.br/servicos/grama-sintetica-para-piscina |
+| Varanda | https://decorgramas.com.br/servicos/grama-sintetica-para-varanda |
+| Playground | https://decorgramas.com.br/servicos/playground-em-grama-sintetica |
+| Brusque | https://decorgramas.com.br/cidades/grama-sintetica-brusque |
+| Itajaí | https://decorgramas.com.br/cidades/grama-sintetica-itajai |
+| Blumenau | https://decorgramas.com.br/cidades/grama-sintetica-blumenau |
+| Balneário Camboriú | https://decorgramas.com.br/cidades/grama-sintetica-balneario-camboriu |
+| Gaspar | https://decorgramas.com.br/cidades/grama-sintetica-gaspar |
+| Timbó | https://decorgramas.com.br/cidades/grama-sintetica-timbo |
+| Pomerode | https://decorgramas.com.br/cidades/grama-sintetica-pomerode |
+| Itapema | https://decorgramas.com.br/cidades/grama-sintetica-itapema |
+| Sitemap | https://decorgramas.com.br/sitemap.xml |
+
+## Perguntas frequentes
+
+**Quanto custa a grama sintética instalada?**
+Entre R$ 80 e R$ 180 por m² instalado, dependendo do tipo de aplicação e modelo escolhido. A visita técnica e o orçamento são gratuitos.
+
+**Quanto tempo leva para instalar?**
+Para áreas de até 100 m², entre 1 e 2 dias.
+
+**A grama precisa de manutenção?**
+Não. Não precisa cortar, regar ou tratar. Limpeza ocasional com vassoura ou água.
+
+**Qual a durabilidade?**
+Entre 10 e 15 anos para uso residencial com os cuidados básicos.
+
+**Atende em qual cidade?**
+Atende em todo o Vale do Itajaí — Brusque, Itajaí, Blumenau, Balneário Camboriú, Gaspar, Timbó, Pomerode, Itapema e região.
+
+**Como solicitar orçamento?**
+Pelo WhatsApp (47) 99234-5341 ou pelo site https://decorgramas.com.br.

@@ -15,5 +15,6 @@ Disallow: /*.log$
 # Permitir imagens (Google Images)
 Allow: /assets/img/
 
-# Sitemap
+# Sitemaps
 Sitemap: https://decorgramas.com.br/sitemap.xml
+Sitemap: https://decorgramas.com.br/llms.txt
