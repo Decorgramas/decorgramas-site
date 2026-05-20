@@ -1,4 +1,4 @@
-# Decor Gramas — Mapa Arquitetural do Site
+﻿# Decor Gramas — Mapa Arquitetural do Site
 
 > Documento estrutural para base do processo de modernização visual.
 > **Escopo:** arquitetura, navegação, fluxos e SEO. Sem implementação.
@@ -12,20 +12,20 @@
 | 1 | `/` | `index.html` | Home | ✅ Ativo |
 | 2 | `/sobre` | `sobre.html` | Institucional | ✅ Ativo |
 | 3 | `/projetos` | `projetos.html` | Portfólio | ✅ Ativo |
-| 4 | `/servicos/grama-sintetica-jardim` | `servicos/...html` | Serviço | ✅ Ativo |
-| 5 | `/servicos/grama-sintetica-decorativa` | `servicos/...html` | Serviço | ✅ Ativo |
-| 6 | `/servicos/grama-sintetica-para-pets` | `servicos/...html` | Serviço | ✅ Ativo |
-| 7 | `/servicos/grama-sintetica-para-piscina` | `servicos/...html` | Serviço | ✅ Ativo |
-| 8 | `/servicos/grama-sintetica-para-varanda` | `servicos/...html` | Serviço | ✅ Ativo |
-| 9 | `/servicos/playground-em-grama-sintetica` | `servicos/...html` | Serviço | ✅ Ativo |
-| 10 | `/cidades/grama-sintetica-brusque` | `cidades/...html` | SEO Local | ✅ Ativo |
-| 11 | `/cidades/grama-sintetica-itajai` | `cidades/...html` | SEO Local | ✅ Ativo |
-| 12 | `/cidades/grama-sintetica-blumenau` | `cidades/...html` | SEO Local | ✅ Ativo |
-| 13 | `/cidades/grama-sintetica-balneario-camboriu` | `cidades/...html` | SEO Local | ✅ Ativo |
-| 14 | `/cidades/grama-sintetica-gaspar` | `cidades/...html` | SEO Local | ✅ Ativo |
-| 15 | `/cidades/grama-sintetica-timbo` | `cidades/...html` | SEO Local | ✅ Ativo |
-| 16 | `/cidades/grama-sintetica-pomerode` | `cidades/...html` | SEO Local | ✅ Ativo |
-| 17 | `/cidades/grama-sintetica-itapema` | `cidades/...html` | SEO Local | ✅ Ativo |
+| 4 | `/grama-sintetica-jardim` | `servicos/...html` | Serviço | ✅ Ativo |
+| 5 | `/grama-sintetica-decorativa` | `servicos/...html` | Serviço | ✅ Ativo |
+| 6 | `/grama-sintetica-para-pets` | `servicos/...html` | Serviço | ✅ Ativo |
+| 7 | `/grama-sintetica-para-piscina` | `servicos/...html` | Serviço | ✅ Ativo |
+| 8 | `/grama-sintetica-para-varanda` | `servicos/...html` | Serviço | ✅ Ativo |
+| 9 | `/playground-em-grama-sintetica` | `servicos/...html` | Serviço | ✅ Ativo |
+| 10 | `/grama-sintetica-brusque` | `cidades/...html` | SEO Local | ✅ Ativo |
+| 11 | `/grama-sintetica-itajai` | `cidades/...html` | SEO Local | ✅ Ativo |
+| 12 | `/grama-sintetica-blumenau` | `cidades/...html` | SEO Local | ✅ Ativo |
+| 13 | `/grama-sintetica-balneario-camboriu` | `cidades/...html` | SEO Local | ✅ Ativo |
+| 14 | `/grama-sintetica-gaspar` | `cidades/...html` | SEO Local | ✅ Ativo |
+| 15 | `/grama-sintetica-timbo` | `cidades/...html` | SEO Local | ✅ Ativo |
+| 16 | `/grama-sintetica-pomerode` | `cidades/...html` | SEO Local | ✅ Ativo |
+| 17 | `/grama-sintetica-itapema` | `cidades/...html` | SEO Local | ✅ Ativo |
 | — | `/blog` | `blog/` | Blog SEO | 🔲 Não implementado |
 | — | `/contato` | — | Conversão | 🔲 Não existe |
 | — | `/orcamento` | — | Landing | 🔲 Não existe |
@@ -83,12 +83,12 @@ decorgramas.com.br
 ```
 
 **Dropdown "Serviços"** (6 links):
-- 🌿 Grama Decorativa → `/servicos/grama-sintetica-decorativa`
-- 🛝 Playground → `/servicos/playground-em-grama-sintetica`
-- 🌱 Jardim → `/servicos/grama-sintetica-jardim`
-- 🐾 Área Pet → `/servicos/grama-sintetica-para-pets`
-- 🏠 Varanda & Sacada → `/servicos/grama-sintetica-para-varanda`
-- 🏊 Área de Piscina → `/servicos/grama-sintetica-para-piscina`
+- 🌿 Grama Decorativa → `/grama-sintetica-decorativa`
+- 🛝 Playground → `/playground-em-grama-sintetica`
+- 🌱 Jardim → `/grama-sintetica-jardim`
+- 🐾 Área Pet → `/grama-sintetica-para-pets`
+- 🏠 Varanda & Sacada → `/grama-sintetica-para-varanda`
+- 🏊 Área de Piscina → `/grama-sintetica-para-piscina`
 
 **Âncoras diretas** (sem dropdown):
 - "Cidades" → `#cidades` (home) ⚠️ *não leva a dropdown de cidades*
@@ -324,7 +324,7 @@ CTA STRIP → FOOTER
 ### Fluxo 1 — Usuário orgânico por serviço
 ```
 Google ["grama sintética para jardim"] 
-  → /servicos/grama-sintetica-jardim
+  → /grama-sintetica-jardim
     → Lê benefícios e vê projetos
       → Clica CTA WhatsApp (conversão)
         ou
@@ -335,7 +335,7 @@ Google ["grama sintética para jardim"]
 ### Fluxo 2 — Usuário orgânico por cidade
 ```
 Google ["grama sintética em Blumenau"]
-  → /cidades/grama-sintetica-blumenau
+  → /grama-sintetica-blumenau
     → Vê serviços disponíveis
       → Clica em serviço específico → /servicos/...
         → Clica CTA WhatsApp (conversão)
@@ -372,9 +372,9 @@ Home → "Sobre" (via footer ou busca)
 ### Páginas bem linkadas (recebem links de vários lugares)
 | Página | Links recebidos de |
 |--------|--------------------|
-| `/servicos/grama-sintetica-jardim` | Home (card a1), nav dropdown, footer, todas as cidades |
+| `/grama-sintetica-jardim` | Home (card a1), nav dropdown, footer, todas as cidades |
 | `/projetos` | Home (CTA "ver todos"), todas as páginas de serviço |
-| `/cidades/grama-sintetica-brusque` | Home (#cidades), footer |
+| `/grama-sintetica-brusque` | Home (#cidades), footer |
 
 ### Gaps de linking interno
 | Gap | Impacto SEO |
@@ -485,8 +485,8 @@ SCHEMA: Article + BreadcrumbList + FAQPage (se tiver FAQ)
 Cidades mencionadas no marquee mas sem página:
 | Cidade | URL futura |
 |--------|-----------|
-| Porto Belo | `/cidades/grama-sintetica-porto-belo` |
-| Navegantes | `/cidades/grama-sintetica-navegantes` |
+| Porto Belo | `/grama-sintetica-porto-belo` |
+| Navegantes | `/grama-sintetica-navegantes` |
 
 Cidades de alto volume na região sem cobertura:
 | Cidade | Potencial |
@@ -523,26 +523,26 @@ Cada página de cidade deve conter (já existe, manter):
 /contato
 
 <!-- PRIORIDADE 0.9 — Serviços -->
-/servicos/grama-sintetica-jardim
-/servicos/grama-sintetica-decorativa
-/servicos/grama-sintetica-para-pets
-/servicos/grama-sintetica-para-piscina
-/servicos/grama-sintetica-para-varanda
-/servicos/playground-em-grama-sintetica
+/grama-sintetica-jardim
+/grama-sintetica-decorativa
+/grama-sintetica-para-pets
+/grama-sintetica-para-piscina
+/grama-sintetica-para-varanda
+/playground-em-grama-sintetica
 
 <!-- PRIORIDADE 0.85 — Cidades principais -->
-/cidades/grama-sintetica-brusque
-/cidades/grama-sintetica-itajai
-/cidades/grama-sintetica-blumenau
-/cidades/grama-sintetica-balneario-camboriu
+/grama-sintetica-brusque
+/grama-sintetica-itajai
+/grama-sintetica-blumenau
+/grama-sintetica-balneario-camboriu
 
 <!-- PRIORIDADE 0.80 — Cidades secundárias -->
-/cidades/grama-sintetica-gaspar
-/cidades/grama-sintetica-timbo
-/cidades/grama-sintetica-pomerode
-/cidades/grama-sintetica-itapema
-/cidades/grama-sintetica-porto-belo     (a criar)
-/cidades/grama-sintetica-navegantes     (a criar)
+/grama-sintetica-gaspar
+/grama-sintetica-timbo
+/grama-sintetica-pomerode
+/grama-sintetica-itapema
+/grama-sintetica-porto-belo     (a criar)
+/grama-sintetica-navegantes     (a criar)
 
 <!-- PRIORIDADE 0.80 — Portfólio + Institucional -->
 /projetos

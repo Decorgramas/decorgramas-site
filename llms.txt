@@ -1,4 +1,4 @@
-# Decor Gramas — llms.txt
+﻿# Decor Gramas — llms.txt
 # Guia para modelos de linguagem (LLMs) sobre este site
 
 ## Empresa
@@ -44,20 +44,20 @@ Brusque (sede), Itajaí, Blumenau, Balneário Camboriú, Gaspar, Timbó, Pomerod
 | Home | https://decorgramas.com.br/ |
 | Sobre | https://decorgramas.com.br/sobre |
 | Portfólio | https://decorgramas.com.br/projetos |
-| Jardim | https://decorgramas.com.br/servicos/grama-sintetica-jardim |
-| Decorativa | https://decorgramas.com.br/servicos/grama-sintetica-decorativa |
-| Pets | https://decorgramas.com.br/servicos/grama-sintetica-para-pets |
-| Piscina | https://decorgramas.com.br/servicos/grama-sintetica-para-piscina |
-| Varanda | https://decorgramas.com.br/servicos/grama-sintetica-para-varanda |
-| Playground | https://decorgramas.com.br/servicos/playground-em-grama-sintetica |
-| Brusque | https://decorgramas.com.br/cidades/grama-sintetica-brusque |
-| Itajaí | https://decorgramas.com.br/cidades/grama-sintetica-itajai |
-| Blumenau | https://decorgramas.com.br/cidades/grama-sintetica-blumenau |
-| Balneário Camboriú | https://decorgramas.com.br/cidades/grama-sintetica-balneario-camboriu |
-| Gaspar | https://decorgramas.com.br/cidades/grama-sintetica-gaspar |
-| Timbó | https://decorgramas.com.br/cidades/grama-sintetica-timbo |
-| Pomerode | https://decorgramas.com.br/cidades/grama-sintetica-pomerode |
-| Itapema | https://decorgramas.com.br/cidades/grama-sintetica-itapema |
+| Jardim | https://decorgramas.com.br/grama-sintetica-jardim |
+| Decorativa | https://decorgramas.com.br/grama-sintetica-decorativa |
+| Pets | https://decorgramas.com.br/grama-sintetica-para-pets |
+| Piscina | https://decorgramas.com.br/grama-sintetica-para-piscina |
+| Varanda | https://decorgramas.com.br/grama-sintetica-para-varanda |
+| Playground | https://decorgramas.com.br/playground-em-grama-sintetica |
+| Brusque | https://decorgramas.com.br/grama-sintetica-brusque |
+| Itajaí | https://decorgramas.com.br/grama-sintetica-itajai |
+| Blumenau | https://decorgramas.com.br/grama-sintetica-blumenau |
+| Balneário Camboriú | https://decorgramas.com.br/grama-sintetica-balneario-camboriu |
+| Gaspar | https://decorgramas.com.br/grama-sintetica-gaspar |
+| Timbó | https://decorgramas.com.br/grama-sintetica-timbo |
+| Pomerode | https://decorgramas.com.br/grama-sintetica-pomerode |
+| Itapema | https://decorgramas.com.br/grama-sintetica-itapema |
 | Sitemap | https://decorgramas.com.br/sitemap.xml |
 
 ## Perguntas frequentes

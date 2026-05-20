@@ -1,6 +1,41 @@
 {
   "cleanUrls": true,
   "trailingSlash": false,
+
+  "redirects": [
+    { "source": "/servicos/grama-sintetica-jardim",          "destination": "/grama-sintetica-jardim",          "permanent": true },
+    { "source": "/servicos/grama-sintetica-decorativa",      "destination": "/grama-sintetica-decorativa",      "permanent": true },
+    { "source": "/servicos/grama-sintetica-para-pets",       "destination": "/grama-sintetica-para-pets",       "permanent": true },
+    { "source": "/servicos/grama-sintetica-para-piscina",    "destination": "/grama-sintetica-para-piscina",    "permanent": true },
+    { "source": "/servicos/grama-sintetica-para-varanda",    "destination": "/grama-sintetica-para-varanda",    "permanent": true },
+    { "source": "/servicos/playground-em-grama-sintetica",   "destination": "/playground-em-grama-sintetica",   "permanent": true },
+    { "source": "/cidades/grama-sintetica-brusque",          "destination": "/grama-sintetica-brusque",         "permanent": true },
+    { "source": "/cidades/grama-sintetica-itajai",           "destination": "/grama-sintetica-itajai",          "permanent": true },
+    { "source": "/cidades/grama-sintetica-blumenau",         "destination": "/grama-sintetica-blumenau",        "permanent": true },
+    { "source": "/cidades/grama-sintetica-balneario-camboriu","destination": "/grama-sintetica-balneario-camboriu","permanent": true },
+    { "source": "/cidades/grama-sintetica-gaspar",           "destination": "/grama-sintetica-gaspar",          "permanent": true },
+    { "source": "/cidades/grama-sintetica-timbo",            "destination": "/grama-sintetica-timbo",           "permanent": true },
+    { "source": "/cidades/grama-sintetica-pomerode",         "destination": "/grama-sintetica-pomerode",        "permanent": true },
+    { "source": "/cidades/grama-sintetica-itapema",          "destination": "/grama-sintetica-itapema",         "permanent": true }
+  ],
+
+  "rewrites": [
+    { "source": "/grama-sintetica-jardim",          "destination": "/servicos/grama-sintetica-jardim" },
+    { "source": "/grama-sintetica-decorativa",      "destination": "/servicos/grama-sintetica-decorativa" },
+    { "source": "/grama-sintetica-para-pets",       "destination": "/servicos/grama-sintetica-para-pets" },
+    { "source": "/grama-sintetica-para-piscina",    "destination": "/servicos/grama-sintetica-para-piscina" },
+    { "source": "/grama-sintetica-para-varanda",    "destination": "/servicos/grama-sintetica-para-varanda" },
+    { "source": "/playground-em-grama-sintetica",   "destination": "/servicos/playground-em-grama-sintetica" },
+    { "source": "/grama-sintetica-brusque",          "destination": "/cidades/grama-sintetica-brusque" },
+    { "source": "/grama-sintetica-itajai",           "destination": "/cidades/grama-sintetica-itajai" },
+    { "source": "/grama-sintetica-blumenau",         "destination": "/cidades/grama-sintetica-blumenau" },
+    { "source": "/grama-sintetica-balneario-camboriu","destination": "/cidades/grama-sintetica-balneario-camboriu" },
+    { "source": "/grama-sintetica-gaspar",           "destination": "/cidades/grama-sintetica-gaspar" },
+    { "source": "/grama-sintetica-timbo",            "destination": "/cidades/grama-sintetica-timbo" },
+    { "source": "/grama-sintetica-pomerode",         "destination": "/cidades/grama-sintetica-pomerode" },
+    { "source": "/grama-sintetica-itapema",          "destination": "/cidades/grama-sintetica-itapema" }
+  ],
+
   "headers": [
     {
       "source": "/(.*)",
