@@ -17,9 +17,9 @@ Options -MultiViews
   RewriteCond %{HTTPS} off
   RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 
-  # 2. Remove www (canonical sem www)
-  RewriteCond %{HTTP_HOST} ^www\.(.+)$ [NC]
-  RewriteRule ^ https://%1%{REQUEST_URI} [L,R=301]
+  # 2. Força www (canonical com www)
+  RewriteCond %{HTTP_HOST} !^www\. [NC]
+  RewriteRule ^ https://www.%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 
   # 3a. Redirects 301: URLs hierárquicas → URLs planas (nova estrutura)
   RewriteRule ^servicos/grama-sintetica-jardim(/?)$ /grama-sintetica-jardim [R=301,L]

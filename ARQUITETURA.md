@@ -279,7 +279,7 @@ CTA STRIP → FOOTER
 ```html
 <title>[Keyword Principal] | Decor Gramas</title>
 <meta name="description" content="...">
-<link rel="canonical" href="https://decorgramas.com.br/[url]">
+<link rel="canonical" href="https://www.decorgramas.com.br/[url]">
 <meta name="robots" content="index, follow">
 <!-- Open Graph + Twitter Card -->
 <!-- Schema JSON-LD -->

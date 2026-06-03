@@ -1,5 +1,5 @@
-# robots.txt — Decor Gramas
-# https://decorgramas.com.br
+﻿# robots.txt — Decor Gramas
+# https://www.decorgramas.com.br
 
 User-agent: *
 Allow: /
@@ -16,5 +16,5 @@ Disallow: /*.log$
 Allow: /assets/img/
 
 # Sitemaps
-Sitemap: https://decorgramas.com.br/sitemap.xml
-Sitemap: https://decorgramas.com.br/llms.txt
+Sitemap: https://www.decorgramas.com.br/sitemap.xml
+Sitemap: https://www.decorgramas.com.br/llms.txt

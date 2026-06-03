@@ -1,9 +1,9 @@
-# Decor Gramas — Contexto do Projeto
+﻿# Decor Gramas — Contexto do Projeto
 
 ## Sobre o projeto
 Site institucional estático da **Decor Gramas**, empresa de venda e instalação de grama sintética premium no Vale do Itajaí (SC). Tecnologia: HTML/CSS/JS puro. Sem build, sem framework. Deploy direto do diretório raiz em servidor Apache (`.htaccess`).
 
-**Domínio:** `https://decorgramas.com.br` (sem www — configurado no .htaccess)
+**Domínio:** `https://www.decorgramas.com.br` (sem www — configurado no .htaccess)
 
 ## Empresa
 - **Produto:** Venda e instalação de grama sintética premium
