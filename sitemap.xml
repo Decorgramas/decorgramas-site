@@ -112,14 +112,72 @@
     <priority>0.8</priority>
   </url>
 
-  <!-- ============ BLOG (descomente ao publicar) ============
-
+  <!-- ============ BLOG ============ -->
   <url>
     <loc>https://www.decorgramas.com.br/blog</loc>
-    <lastmod>2026-05-19</lastmod>
+    <lastmod>2026-06-04</lastmod>
     <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.decorgramas.com.br/blog/grama-sintetica-vs-grama-natural</loc>
+    <lastmod>2026-06-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.decorgramas.com.br/blog/como-limpar-grama-sintetica-apos-pets</loc>
+    <lastmod>2026-06-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.decorgramas.com.br/blog/quanto-custa-instalar-grama-sintetica</loc>
+    <lastmod>2026-06-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.decorgramas.com.br/blog/grama-sintetica-esquenta</loc>
+    <lastmod>2026-06-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
-  -->
+  <url>
+    <loc>https://www.decorgramas.com.br/blog/melhor-grama-sintetica-para-jardim</loc>
+    <lastmod>2026-06-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.decorgramas.com.br/blog/grama-sintetica-para-piscina</loc>
+    <lastmod>2026-06-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.decorgramas.com.br/blog/grama-sintetica-playground</loc>
+    <lastmod>2026-06-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.decorgramas.com.br/blog/como-preparar-terreno-grama-sintetica</loc>
+    <lastmod>2026-06-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.decorgramas.com.br/blog/durabilidade-grama-sintetica</loc>
+    <lastmod>2026-06-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.decorgramas.com.br/blog/altura-ideal-grama-sintetica</loc>
+    <lastmod>2026-06-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
 
 </urlset>
