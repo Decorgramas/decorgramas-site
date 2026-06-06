@@ -207,6 +207,34 @@
   color: var(--green-300) !important;
 }
 
+/* === TRUST STRIP (stats no hero) === */
+.trust-strip {
+  display: flex; gap: 36px; flex-wrap: wrap;
+  padding-top: 32px;
+  border-top: 1px solid rgba(247,244,237,0.12);
+  margin-top: 48px;
+}
+.trust-item { display: flex; flex-direction: column; gap: 4px; }
+.trust-item strong {
+  font-family: var(--font-display); font-size: 26px;
+  font-weight: 500; color: var(--bone);
+  letter-spacing: -0.02em;
+}
+.trust-item span {
+  font-size: 11px; letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: rgba(247,244,237,0.5);
+}
+.trust-item .stars {
+  display: inline-flex; gap: 2px;
+  color: var(--gold); font-size: 18px;
+  letter-spacing: 0;
+}
+@media (max-width: 768px) {
+  .trust-strip { gap: 24px; }
+  .trust-item strong { font-size: 22px; }
+}
+
 /* === CONTATO — CARDS DE CONTATO === */
 .contato-cards {
   display: grid;
@@ -726,11 +754,11 @@
         </ul>
       </div>
     </div>
-    <div class="specs-strip">
-      <div><strong>+500</strong><span>Projetos realizados</span></div>
-      <div><strong>Desde <em>2019</em></strong><span>No mercado</span></div>
-      <div><strong>5,0 ★</strong><span>Avaliação Google</span></div>
-      <div><strong>+49</strong><span>Cidades atendidas</span></div>
+    <div class="trust-strip">
+      <div class="trust-item"><span class="stars">★★★★★</span><strong>5,0</strong><span>Avaliação Google</span></div>
+      <div class="trust-item"><strong>+500</strong><span>Projetos realizados</span></div>
+      <div class="trust-item"><strong>Desde 2019</strong><span>No mercado</span></div>
+      <div class="trust-item"><strong>+49</strong><span>Cidades atendidas</span></div>
     </div>
   </div>
 </section>
