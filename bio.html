@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Decor Gramas | Grama Sintética em Brusque e Região</title>
+<meta name="robots" content="noindex,follow">
+<meta name="theme-color" content="#0F2A20">
+
+<!-- Favicons -->
+<link rel="icon" type="image/png" sizes="32x32" href="assets/icons/favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="assets/icons/favicon-16.png">
+<link rel="apple-touch-icon" sizes="192x192" href="assets/icons/favicon-192.png">
+<link rel="shortcut icon" href="assets/icons/favicon.ico">
+
+<!-- Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;1,9..144,300;1,9..144,400&family=Inter+Tight:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+<style>
+/* === TOKENS === */
+:root {
+  --green-900: #091a12;
+  --green-800: #0F2A20;
+  --green-700: #163b2c;
+  --green-300: #A8C9B5;
+  --green-100: rgba(168,201,181,0.12);
+  --bone:  #F7F4ED;
+  --bone-2: rgba(247,244,237,0.65);
+  --bone-3: rgba(247,244,237,0.38);
+  --gold: #C9A84C;
+  --wa-green: #25D366;
+  --font-display: 'Fraunces', Georgia, serif;
+  --font-body: 'Inter Tight', system-ui, -apple-system, sans-serif;
+  --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+html {
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--green-800);
+  background-image:
+    radial-gradient(ellipse 100% 55% at 50% -10%, rgba(168,201,181,0.10) 0%, transparent 65%),
+    radial-gradient(ellipse 70% 45% at 50% 105%, rgba(9,26,18,0.7) 0%, transparent 70%);
+  min-height: 100vh;
+  min-height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: env(safe-area-inset-top, 52px) 20px env(safe-area-inset-bottom, 40px);
+  padding-top: max(52px, env(safe-area-inset-top));
+  padding-bottom: max(40px, env(safe-area-inset-bottom));
+}
+
+/* === WRAP === */
+.bio-wrap {
+  width: 100%;
+  max-width: 420px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* === LOGO === */
+.bio-logo {
+  margin-bottom: 32px;
+  opacity: 0;
+  animation: fadeUp 0.7s var(--ease-out) 0.05s forwards;
+}
+.bio-logo img {
+  height: 32px;
+  width: auto;
+  display: block;
+}
+
+/* === HEADER === */
+.bio-header {
+  text-align: center;
+  margin-bottom: 40px;
+  opacity: 0;
+  animation: fadeUp 0.7s var(--ease-out) 0.15s forwards;
+}
+.bio-name {
+  font-family: var(--font-display);
+  font-size: clamp(34px, 9vw, 44px);
+  font-weight: 400;
+  color: var(--bone);
+  letter-spacing: -0.035em;
+  line-height: 0.95;
+  margin-bottom: 14px;
+  font-variation-settings: 'opsz' 144;
+}
+.bio-name em {
+  font-style: italic;
+  color: var(--green-300);
+}
+.bio-desc {
+  font-size: 15px;
+  color: var(--bone-2);
+  line-height: 1.55;
+  font-weight: 300;
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+/* === BUTTONS === */
+.bio-buttons {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 36px;
+  opacity: 0;
+  animation: fadeUp 0.7s var(--ease-out) 0.28s forwards;
+}
+
+.bio-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: 100%;
+  padding: 17px 24px;
+  border-radius: 14px;
+  font-family: var(--font-body);
+  font-size: 15px;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+  text-decoration: none;
+  cursor: pointer;
+  transition:
+    transform 0.18s var(--ease-out),
+    box-shadow 0.18s var(--ease-out),
+    background-color 0.18s,
+    border-color 0.18s;
+  border: 1.5px solid transparent;
+  -webkit-tap-highlight-color: transparent;
+  user-select: none;
+}
+.bio-btn:active { transform: scale(0.965); }
+
+/* WhatsApp */
+.bio-btn.wa {
+  background: var(--wa-green);
+  color: #fff;
+  box-shadow: 0 4px 20px rgba(37,211,102,0.28);
+  font-size: 15.5px;
+}
+.bio-btn.wa:hover {
+  background: #1fba59;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 30px rgba(37,211,102,0.38);
+}
+.bio-btn.wa svg { flex-shrink: 0; }
+
+/* Outline glass */
+.bio-btn.outline {
+  background: rgba(247,244,237,0.055);
+  border-color: rgba(247,244,237,0.16);
+  color: var(--bone);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+.bio-btn.outline:hover {
+  background: rgba(247,244,237,0.10);
+  border-color: rgba(247,244,237,0.28);
+  transform: translateY(-2px);
+}
+.bio-btn .btn-icon {
+  font-size: 17px;
+  flex-shrink: 0;
+  line-height: 1;
+}
+
+/* === DIVIDER === */
+.bio-divider {
+  width: 100%;
+  height: 1px;
+  background: rgba(247,244,237,0.1);
+  margin: 4px 0 32px;
+  opacity: 0;
+  animation: fadeUp 0.7s var(--ease-out) 0.42s forwards;
+}
+
+/* === TRUST STATS === */
+.bio-trust {
+  display: flex;
+  gap: 0;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 36px;
+  opacity: 0;
+  animation: fadeUp 0.7s var(--ease-out) 0.42s forwards;
+}
+.trust-stat {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  padding: 16px 8px;
+  border-top: 1px solid rgba(247,244,237,0.1);
+  border-bottom: 1px solid rgba(247,244,237,0.1);
+}
+.trust-stat + .trust-stat {
+  border-left: 1px solid rgba(247,244,237,0.08);
+}
+.trust-stat .t-stars {
+  color: var(--gold);
+  font-size: 11px;
+  letter-spacing: 2px;
+  margin-bottom: 2px;
+}
+.trust-stat strong {
+  font-family: var(--font-display);
+  font-size: 22px;
+  font-weight: 400;
+  color: var(--bone);
+  letter-spacing: -0.025em;
+  line-height: 1;
+  font-variation-settings: 'opsz' 72;
+}
+.trust-stat span {
+  font-size: 9.5px;
+  letter-spacing: 0.13em;
+  text-transform: uppercase;
+  color: var(--bone-3);
+  font-weight: 500;
+}
+
+/* === FOOTER === */
+.bio-footer {
+  text-align: center;
+  opacity: 0;
+  animation: fadeUp 0.7s var(--ease-out) 0.55s forwards;
+}
+.bio-footer p {
+  font-size: 12.5px;
+  color: var(--bone-3);
+  line-height: 2;
+}
+.bio-footer a {
+  color: var(--green-300);
+  text-decoration: none;
+  transition: color 0.15s;
+}
+.bio-footer a:hover { color: var(--bone); }
+
+/* === KEYFRAMES === */
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(14px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+/* === REDUCED MOTION === */
+@media (prefers-reduced-motion: reduce) {
+  .bio-logo, .bio-header, .bio-buttons,
+  .bio-divider, .bio-trust, .bio-footer {
+    opacity: 1; animation: none; transform: none;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="bio-wrap">
+
+  <!-- Logo -->
+  <div class="bio-logo">
+    <a href="https://www.decorgramas.com.br/?utm_source=instagram&utm_medium=bio&utm_campaign=link_bio" target="_blank" rel="noopener noreferrer" aria-label="Decor Gramas">
+      <img src="assets/img/logo/wordmark-light.png" alt="Decor Gramas — Grama Sintética">
+    </a>
+  </div>
+
+  <!-- Header -->
+  <header class="bio-header">
+    <h1 class="bio-name">Decor <em>Gramas</em></h1>
+    <p class="bio-desc">Venda e instalação de grama sintética em Brusque e região.</p>
+  </header>
+
+  <!-- Buttons -->
+  <div class="bio-buttons">
+
+    <!-- 1. WhatsApp -->
+    <a href="https://wa.me/5547992345341?text=Ol%C3%A1%2C%20vim%20pelo%20Instagram%20da%20Decor%20Gramas%20e%20gostaria%20de%20solicitar%20um%20or%C3%A7amento."
+       class="bio-btn wa"
+       target="_blank" rel="noopener noreferrer"
+       aria-label="Solicitar orçamento no WhatsApp">
+      <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+      Solicitar orçamento no WhatsApp
+    </a>
+
+    <!-- 2. Site oficial -->
+    <a href="https://www.decorgramas.com.br/?utm_source=instagram&utm_medium=bio&utm_campaign=link_bio"
+       class="bio-btn outline"
+       target="_blank" rel="noopener noreferrer"
+       aria-label="Acessar site oficial da Decor Gramas">
+      <span class="btn-icon" aria-hidden="true">🏡</span>
+      Acessar site oficial
+    </a>
+
+    <!-- 3. Projetos -->
+    <a href="https://www.decorgramas.com.br/projetos?utm_source=instagram&utm_medium=bio&utm_campaign=link_bio"
+       class="bio-btn outline"
+       target="_blank" rel="noopener noreferrer"
+       aria-label="Ver projetos realizados pela Decor Gramas">
+      <span class="btn-icon" aria-hidden="true">📸</span>
+      Ver projetos realizados
+    </a>
+
+    <!-- 4. Google Reviews -->
+    <!-- TODO: substituir GOOGLE_REVIEWS_URL pelo link do perfil Google My Business da Decor Gramas -->
+    <!-- Exemplo: https://g.page/r/XXXXXXXX/review ou https://maps.app.goo.gl/XXXXXX -->
+    <a href="GOOGLE_REVIEWS_URL"
+       class="bio-btn outline"
+       target="_blank" rel="noopener noreferrer"
+       aria-label="Ver avaliações no Google">
+      <span class="btn-icon" aria-hidden="true">⭐</span>
+      Ver avaliações no Google
+    </a>
+
+  </div>
+
+  <!-- Trust stats -->
+  <div class="bio-trust" aria-label="Nossos números">
+    <div class="trust-stat">
+      <span class="t-stars" aria-hidden="true">★★★★★</span>
+      <strong>5,0</strong>
+      <span>Google</span>
+    </div>
+    <div class="trust-stat">
+      <strong>+500</strong>
+      <span>Projetos</span>
+    </div>
+    <div class="trust-stat">
+      <strong>2019</strong>
+      <span>Desde</span>
+    </div>
+    <div class="trust-stat">
+      <strong>+49</strong>
+      <span>Cidades</span>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="bio-footer">
+    <p>
+      Decor Gramas · Brusque&nbsp;-&nbsp;SC<br>
+      <a href="tel:+5547992345341">(47)&nbsp;99234-5341</a>
+      &nbsp;·&nbsp;
+      <a href="https://instagram.com/decorgramas" target="_blank" rel="noopener noreferrer">@decorgramas</a>
+    </p>
+  </footer>
+
+</div>
+
+</body>
+</html>
