@@ -118,6 +118,19 @@
     <priority>0.8</priority>
   </url>
 
+  <url>
+    <loc>https://www.decorgramas.com.br/mini-campo-futebol-grama-sintetica</loc>
+    <lastmod>2026-06-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.decorgramas.com.br/piso-para-grama-sintetica</loc>
+    <lastmod>2026-06-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
   <!-- ============ BLOG ============ -->
   <url>
     <loc>https://www.decorgramas.com.br/blog</loc>
