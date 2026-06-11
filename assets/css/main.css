@@ -172,7 +172,7 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
   border-bottom: 1px solid var(--line-2);
 }
 .header-row {
-  display: flex; align-items: center; justify-content: space-between; gap: 32px;
+  display: flex; align-items: center; justify-content: space-between; gap: 20px;
 }
 .logo {
   display: inline-flex; align-items: center;
@@ -189,10 +189,11 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
 .header.transparent:not(.scrolled) .logo .logo-dark { display: none; }
 .header.transparent:not(.scrolled) .logo .logo-light { display: block; }
 
-.nav-desktop { display: flex; align-items: center; gap: 6px; }
+.nav-desktop { display: flex; align-items: center; gap: 4px; }
 .nav-link {
-  position: relative; padding: 10px 16px;
+  position: relative; padding: 9px 11px;
   font-size: 14px; font-weight: 500; color: var(--ink-2);
+  white-space: nowrap;
   transition: color 0.3s var(--ease); border-radius: 100px;
 }
 .header.transparent .nav-link { color: var(--bone); }
