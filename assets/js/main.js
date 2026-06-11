@@ -13,18 +13,28 @@ if (header) {
 const trigger = document.getElementById('menuTrigger');
 const mobile  = document.getElementById('mobileMenu');
 const overlay = document.getElementById('mobileOverlay');
+const mClose  = document.getElementById('mobileClose');
 if (trigger && mobile && overlay) {
   const toggleMenu = () => {
+    const isOpen = mobile.classList.toggle('open');
     trigger.classList.toggle('open');
-    mobile.classList.toggle('open');
     overlay.classList.toggle('open');
-    document.body.style.overflow = mobile.classList.contains('open') ? 'hidden' : '';
+    document.body.style.overflow = isOpen ? 'hidden' : '';
   };
   trigger.addEventListener('click', toggleMenu);
   overlay.addEventListener('click', toggleMenu);
+  if (mClose) mClose.addEventListener('click', toggleMenu);
   mobile.querySelectorAll('a').forEach(a =>
     a.addEventListener('click', () => { if (mobile.classList.contains('open')) toggleMenu(); })
   );
+  mobile.querySelectorAll('.mob-group-toggle').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const group = btn.parentElement;
+      const wasOpen = group.classList.contains('open');
+      mobile.querySelectorAll('.mob-group').forEach(g => g.classList.remove('open'));
+      if (!wasOpen) group.classList.add('open');
+    });
+  });
 }
 
 /* FAQ accordion */
