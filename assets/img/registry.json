@@ -243,6 +243,46 @@
       "width": 1800,
       "height": 3200,
       "sizeKB": 1590
+    },
+    {
+      "src": "https://www.decorgramas.com.br/assets/img/projetos/grama-sintetica-residencial-balneario-camboriu-area-externa.webp",
+      "alt": "Área externa residencial com grama sintética instalada em Balneário Camboriú",
+      "title": "Grama Sintética Residencial em Balneário Camboriú",
+      "city": "Balneário Camboriú",
+      "category": "jardim",
+      "width": 1920,
+      "height": 1440,
+      "sizeKB": 826
+    },
+    {
+      "src": "https://www.decorgramas.com.br/assets/img/projetos/grama-sintetica-varanda-balneario-camboriu.webp",
+      "alt": "Varanda residencial com grama sintética decorativa instalada em Balneário Camboriú",
+      "title": "Grama Sintética para Varanda Residencial",
+      "city": "Balneário Camboriú",
+      "category": "varanda",
+      "width": 1200,
+      "height": 900,
+      "sizeKB": 195
+    },
+    {
+      "src": "https://www.decorgramas.com.br/assets/img/projetos/projeto-varanda-grama-sintetica-balneario-camboriu.webp",
+      "alt": "Projeto de varanda residencial com grama sintética em Balneário Camboriú",
+      "title": "Projeto Varanda Residencial",
+      "city": "Balneário Camboriú",
+      "category": "varanda",
+      "width": 1200,
+      "height": 900,
+      "sizeKB": 195
+    },
+    {
+      "src": "https://www.decorgramas.com.br/assets/img/projetos/jardim-residencial-grama-sintetica-brusque-limoeiro.webp",
+      "alt": "Jardim residencial com grama sintética instalada no bairro Limoeiro em Brusque",
+      "title": "Jardim Residencial com Grama Sintética",
+      "city": "Brusque",
+      "category": "jardim",
+      "width": 1200,
+      "height": 1600,
+      "sizeKB": 451
     }
   ]
 }
