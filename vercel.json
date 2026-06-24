@@ -18,7 +18,12 @@
     { "source": "/cidades/grama-sintetica-gaspar",           "destination": "/grama-sintetica-gaspar",          "permanent": true },
     { "source": "/cidades/grama-sintetica-timbo",            "destination": "/grama-sintetica-timbo",           "permanent": true },
     { "source": "/cidades/grama-sintetica-pomerode",         "destination": "/grama-sintetica-pomerode",        "permanent": true },
-    { "source": "/cidades/grama-sintetica-itapema",          "destination": "/grama-sintetica-itapema",         "permanent": true }
+    { "source": "/cidades/grama-sintetica-itapema",          "destination": "/grama-sintetica-itapema",         "permanent": true },
+    { "source": "/cidades/grama-sintetica-camboriu",         "destination": "/grama-sintetica-camboriu",        "permanent": true },
+    { "source": "/cidades/grama-sintetica-porto-belo",       "destination": "/grama-sintetica-porto-belo",      "permanent": true },
+    { "source": "/cidades/grama-sintetica-guabiruba",        "destination": "/grama-sintetica-guabiruba",       "permanent": true },
+    { "source": "/cidades/grama-sintetica-ilhota",           "destination": "/grama-sintetica-ilhota",          "permanent": true },
+    { "source": "/cidades/grama-sintetica-sao-joao-batista", "destination": "/grama-sintetica-sao-joao-batista","permanent": true }
   ],
 
   "rewrites": [
@@ -37,7 +42,12 @@
     { "source": "/grama-sintetica-gaspar",           "destination": "/cidades/grama-sintetica-gaspar" },
     { "source": "/grama-sintetica-timbo",            "destination": "/cidades/grama-sintetica-timbo" },
     { "source": "/grama-sintetica-pomerode",         "destination": "/cidades/grama-sintetica-pomerode" },
-    { "source": "/grama-sintetica-itapema",          "destination": "/cidades/grama-sintetica-itapema" }
+    { "source": "/grama-sintetica-itapema",          "destination": "/cidades/grama-sintetica-itapema" },
+    { "source": "/grama-sintetica-camboriu",         "destination": "/cidades/grama-sintetica-camboriu" },
+    { "source": "/grama-sintetica-porto-belo",       "destination": "/cidades/grama-sintetica-porto-belo" },
+    { "source": "/grama-sintetica-guabiruba",        "destination": "/cidades/grama-sintetica-guabiruba" },
+    { "source": "/grama-sintetica-ilhota",           "destination": "/cidades/grama-sintetica-ilhota" },
+    { "source": "/grama-sintetica-sao-joao-batista", "destination": "/cidades/grama-sintetica-sao-joao-batista" }
   ],
 
   "headers": [
