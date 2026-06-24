@@ -71,51 +71,81 @@
   <!-- ============ CIDADES ============ -->
   <url>
     <loc>https://www.decorgramas.com.br/grama-sintetica-brusque</loc>
-    <lastmod>2026-06-09</lastmod>
+    <lastmod>2026-06-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.decorgramas.com.br/grama-sintetica-itajai</loc>
-    <lastmod>2026-06-09</lastmod>
+    <lastmod>2026-06-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.decorgramas.com.br/grama-sintetica-blumenau</loc>
-    <lastmod>2026-06-09</lastmod>
+    <lastmod>2026-06-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.decorgramas.com.br/grama-sintetica-balneario-camboriu</loc>
-    <lastmod>2026-06-09</lastmod>
+    <lastmod>2026-06-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://www.decorgramas.com.br/grama-sintetica-gaspar</loc>
-    <lastmod>2026-06-09</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.decorgramas.com.br/grama-sintetica-timbo</loc>
-    <lastmod>2026-06-09</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.decorgramas.com.br/grama-sintetica-pomerode</loc>
-    <lastmod>2026-06-09</lastmod>
+    <loc>https://www.decorgramas.com.br/grama-sintetica-camboriu</loc>
+    <lastmod>2026-06-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.decorgramas.com.br/grama-sintetica-itapema</loc>
-    <lastmod>2026-06-09</lastmod>
+    <lastmod>2026-06-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.decorgramas.com.br/grama-sintetica-porto-belo</loc>
+    <lastmod>2026-06-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.decorgramas.com.br/grama-sintetica-gaspar</loc>
+    <lastmod>2026-06-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.decorgramas.com.br/grama-sintetica-timbo</loc>
+    <lastmod>2026-06-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.decorgramas.com.br/grama-sintetica-pomerode</loc>
+    <lastmod>2026-06-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.decorgramas.com.br/grama-sintetica-guabiruba</loc>
+    <lastmod>2026-06-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://www.decorgramas.com.br/grama-sintetica-ilhota</loc>
+    <lastmod>2026-06-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://www.decorgramas.com.br/grama-sintetica-sao-joao-batista</loc>
+    <lastmod>2026-06-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
   </url>
 
   <url>
