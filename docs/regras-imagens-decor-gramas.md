@@ -51,6 +51,40 @@ area-piscina-grama-sintetica-balneario-camboriu.webp
 mini-campo-grama-sintetica-condominio.webp
 ```
 
+## Regra de uso das pastas "Antes"
+
+Sempre que a estrutura de uma pasta de projeto seguir o padrão `Projeto X / Antes / Depois` (ou `Antes / Final`), as imagens da subpasta **Antes** **não podem ser usadas automaticamente** em:
+
+- Home
+- Cards
+- Heroes
+- Projetos
+- Blog
+- Páginas de cidade
+- Landing pages
+- SEO local
+
+### Uso permitido das imagens da pasta "Antes"
+
+Imagens da pasta "Antes" só podem ser usadas quando houver solicitação explícita para:
+
+- Comparativo Antes e Depois
+- Estudo de caso
+- Página de projeto específico
+- Demonstração de transformação
+- Artigo técnico explicando o processo
+
+Nesses casos, a imagem "Antes" deve sempre aparecer emparelhada e claramente identificada (rótulo "Antes"/"Depois") junto da imagem "Depois" correspondente — nunca isolada.
+
+### Prioridade de seleção
+
+Ao escolher imagens para qualquer página do site, seguir esta ordem de prioridade:
+
+1. **Prioridade 1**: Depois / Final / Concluído / Resultado Final
+2. **Prioridade 2**: Imagens gerais de projetos concluídos
+3. **Prioridade 3**: Imagens de execução somente quando o conteúdo exigir demonstração técnica
+4. **Prioridade 4**: Imagens da pasta "Antes" apenas mediante solicitação explícita
+
 ## Registro centralizado
 
 Toda imagem real catalogada deve ser adicionada a `assets/img/registry.json`, que mantém a lista de imagens disponíveis (fonte, alt, cidade, categoria, dimensões e peso). Antes de inserir uma imagem nova em qualquer página, consultar esse registry para verificar se já existe uma foto real adequada.
