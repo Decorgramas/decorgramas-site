@@ -1,19 +1,16 @@
-﻿# Decor Gramas — llms.txt
-# Guia para modelos de linguagem (LLMs) sobre este site
+# Decor Gramas
+
+> Empresa especializada em venda e instalação profissional de grama sintética premium em Brusque e toda a região do Vale do Itajaí, Santa Catarina, Brasil. Fundada há mais de 10 anos, com +500 projetos entregues e nota 5,0 no Google.
 
 ## Empresa
 
-**Nome:** Decor Gramas
-**Segmento:** Venda e instalação de grama sintética premium
-**Região atendida:** Vale do Itajaí, Santa Catarina, Brasil
-**Sede:** Brusque, SC — R. João Lucio Torrezani, 80, Santa Rita
-**Telefone / WhatsApp:** (47) 99234-5341
-**Site:** https://www.decorgramas.com.br
-**Horário:** Segunda a sexta 8h–18h · Sábado 8h–12h
-
-## O que fazemos
-
-A Decor Gramas é especializada em venda e instalação profissional de grama sintética premium em Brusque, Itajaí, Blumenau, Balneário Camboriú e toda a região do Vale do Itajaí. Fundada há mais de 10 anos, com +500 projetos entregues e nota 5,0 no Google.
+- **Nome:** Decor Gramas
+- **Segmento:** Venda e instalação de grama sintética premium
+- **Região atendida:** Vale do Itajaí, Santa Catarina, Brasil
+- **Sede:** Brusque, SC
+- **Telefone / WhatsApp:** (47) 99234-5341
+- **Site:** https://www.decorgramas.com.br
+- **Horário:** Segunda a sexta 8h–18h · Sábado 8h–12h
 
 ## Serviços oferecidos
 
@@ -23,10 +20,12 @@ A Decor Gramas é especializada em venda e instalação profissional de grama si
 - Grama sintética para área de piscina (antiderrapante, resistente a cloro)
 - Grama sintética para varanda e sacada de apartamento
 - Playground em grama sintética (com manta de amortecimento, segue NBR 16071)
+- Mini campo de futebol em grama sintética para condomínios e residências
+- Piso em pó de pedra para instalação de grama sintética
 
 ## Cidades atendidas
 
-Brusque (sede), Itajaí, Blumenau, Balneário Camboriú, Gaspar, Timbó, Pomerode, Itapema, Porto Belo e demais municípios do Vale do Itajaí.
+Brusque (sede), Itajaí, Blumenau, Balneário Camboriú, Camboriú, Gaspar, Timbó, Pomerode, Itapema, Porto Belo, Guabiruba, Ilhota, São João Batista e demais municípios do Vale do Itajaí.
 
 ## Diferenciais
 
@@ -44,20 +43,29 @@ Brusque (sede), Itajaí, Blumenau, Balneário Camboriú, Gaspar, Timbó, Pomerod
 | Home | https://www.decorgramas.com.br/ |
 | Sobre | https://www.decorgramas.com.br/sobre |
 | Portfólio | https://www.decorgramas.com.br/projetos |
+| Contato / Orçamento | https://www.decorgramas.com.br/contato |
+| Blog | https://www.decorgramas.com.br/blog |
 | Jardim | https://www.decorgramas.com.br/grama-sintetica-jardim |
 | Decorativa | https://www.decorgramas.com.br/grama-sintetica-decorativa |
 | Pets | https://www.decorgramas.com.br/grama-sintetica-para-pets |
 | Piscina | https://www.decorgramas.com.br/grama-sintetica-para-piscina |
 | Varanda | https://www.decorgramas.com.br/grama-sintetica-para-varanda |
 | Playground | https://www.decorgramas.com.br/playground-em-grama-sintetica |
+| Mini Campo | https://www.decorgramas.com.br/mini-campo-futebol-grama-sintetica |
+| Piso / Contrabase | https://www.decorgramas.com.br/piso-para-grama-sintetica |
 | Brusque | https://www.decorgramas.com.br/grama-sintetica-brusque |
 | Itajaí | https://www.decorgramas.com.br/grama-sintetica-itajai |
 | Blumenau | https://www.decorgramas.com.br/grama-sintetica-blumenau |
 | Balneário Camboriú | https://www.decorgramas.com.br/grama-sintetica-balneario-camboriu |
+| Camboriú | https://www.decorgramas.com.br/grama-sintetica-camboriu |
 | Gaspar | https://www.decorgramas.com.br/grama-sintetica-gaspar |
 | Timbó | https://www.decorgramas.com.br/grama-sintetica-timbo |
 | Pomerode | https://www.decorgramas.com.br/grama-sintetica-pomerode |
 | Itapema | https://www.decorgramas.com.br/grama-sintetica-itapema |
+| Porto Belo | https://www.decorgramas.com.br/grama-sintetica-porto-belo |
+| Guabiruba | https://www.decorgramas.com.br/grama-sintetica-guabiruba |
+| Ilhota | https://www.decorgramas.com.br/grama-sintetica-ilhota |
+| São João Batista | https://www.decorgramas.com.br/grama-sintetica-sao-joao-batista |
 | Sitemap | https://www.decorgramas.com.br/sitemap.xml |
 
 ## Perguntas frequentes
@@ -75,7 +83,7 @@ Não. Não precisa cortar, regar ou tratar. Limpeza ocasional com vassoura ou á
 Entre 10 e 15 anos para uso residencial com os cuidados básicos.
 
 **Atende em qual cidade?**
-Atende em todo o Vale do Itajaí — Brusque, Itajaí, Blumenau, Balneário Camboriú, Gaspar, Timbó, Pomerode, Itapema e região.
+Atende em todo o Vale do Itajaí — Brusque, Itajaí, Blumenau, Balneário Camboriú, Camboriú, Gaspar, Timbó, Pomerode, Itapema, Porto Belo, Guabiruba, Ilhota, São João Batista e região.
 
 **Como solicitar orçamento?**
-Pelo WhatsApp (47) 99234-5341 ou pelo site https://www.decorgramas.com.br.
+Pelo WhatsApp (47) 99234-5341 ou pelo formulário em https://www.decorgramas.com.br/contato.
